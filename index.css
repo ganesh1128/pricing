@@ -1,0 +1,181 @@
+/* p{
+  color: pink;
+} */
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"); */
+
+/* p {
+  font-size: 25px;
+  color: crimson;
+} */
+
+/* !important (bootstrap) > iniline > id (unqiue) > class > elements > *  */
+
+/* .plan {
+    width: 30%;
+  background: #181059;
+  border-radius: 24px;
+  padding: 24px;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+} */
+
+/* .plan-heading {
+  font-size: 24px;
+}
+
+.plan-feature {
+  list-style: none;
+  padding: 0px;
+} */
+
+/* :before, :hover, :after, @media, @import, @support */
+
+/* .plan-feature li:before {
+  content: "✓";
+  margin-right: 16px;
+} */
+
+/* .plan-feature li:last-child:before {
+  content: "✖";
+} */
+
+/* .plan-feature li:after{
+  content: '*';
+    color: red;
+} */
+
+/* .plan-feature li {
+  margin-bottom: 16px;
+  display: flex;
+} */
+
+/* .plan-feature li:last-child {
+  opacity: 0.3;
+} */
+
+/* .plan-amount {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.plan-duration {
+  opacity: 0.6;
+}
+
+.plan-choose {
+  width: 100%;
+  background: #8645ff;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 12px;
+  font-weight: bold;
+} */
+
+
+/* .plan-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+/* .plan-save {
+  background: white;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+  color: #8645ff;
+  font-weight: bold;
+}
+*/
+
+/* *****************************************pricing2**********************************88 */
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+
+.plan {
+  background: rgb(248, 231, 231);
+  border-radius: 24px;
+  padding: 24px;
+  color: black;
+  font-family: "Inter", sans-serif;
+}
+
+.plan-heading {
+  font-size: 24px;
+}
+
+.plan-feature {
+  list-style: none;
+  padding: 0px;
+}
+
+
+
+.plan-feature li:before {
+  content: "✓";
+  margin-right: 16px; 
+}
+
+
+.plan-feature li:nth-last-child(1):before,.plan-feature li:nth-last-child(2):before,.plan-feature li:nth-last-child(3):before,.plan-feature li:nth-last-child(4):before{
+  content: "✖";
+}
+
+
+
+/* .plan-feature li:nth-last-child(5):after{
+  content: '*';
+    color: red;
+} */
+
+.plan-feature li {
+  margin-bottom: 16px;
+  display: flex;
+}
+
+
+.plan-feature li:nth-last-child(1),.plan-feature li:nth-last-child(2),.plan-feature li:nth-last-child(3),.plan-feature li:nth-last-child(4) {
+  opacity: 0.3;  
+}
+
+
+.plan-amount {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.plan-duration {
+  opacity: 0.6;
+}
+
+.plan-choose {
+  width: 100%;
+  background: rgb(247, 239, 239);
+  border-radius: 8px;
+  border: none;
+  color: #8645ff;
+  font-size: 20px;
+  padding: 12px;
+  font-weight: bold;
+}
+
+
+.plan-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plan-save {
+  background: white;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+  color: #8645ff;
+  font-weight: bold;
+}
